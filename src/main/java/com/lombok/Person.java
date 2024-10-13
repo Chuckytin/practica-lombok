@@ -1,4 +1,4 @@
-package com.lombok.app;
+package com.lombok;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;

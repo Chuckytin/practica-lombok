@@ -1,10 +1,8 @@
-package com.lombok.app;
+package com.lombok;
 
-import lombok.Cleanup;
 import lombok.SneakyThrows;
 import lombok.extern.java.Log;
-import java.io.FileInputStream;
-import java.io.InputStream;
+
 import java.time.LocalDate;
 
 
