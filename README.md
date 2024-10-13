@@ -40,14 +40,3 @@ Este proyecto está enfocado en aprender a usar las principales anotaciones que 
 
 ### 12. `@Log`
 - Añade automáticamente una instancia de `Logger` en la clase, que puede utilizarse para registrar eventos o información durante la ejecución.
-
-## Otras Anotaciones en Comentarios
-
-### 13. `@ToString(exclude = {"fullName"}, includeFieldNames = false)`
-- Excluye el campo **fullName** de la representación del método `toString()` y no incluye los nombres de los atributos en la salida del mismo. 
-- Alternativamente, puedes usar `of` para incluir solo campos específicos.
-- Opción `callSuper = true`: Si la clase hereda de una clase padre, permite incluir los atributos de la clase padre en el método `toString()`.
-
-### 14. `@EqualsAndHashCode(of = {"id", "email", "phoneNumber"}, doNotUseGetters = true)`
-- Define los atributos que deben ser considerados para los métodos `equals()` y `hashCode()`, evitando la duplicación de objetos con los mismos valores en esos campos.
-- La opción `doNotUseGetters = true` indica que los valores deben obtenerse directamente desde los atributos en lugar de los getters.
